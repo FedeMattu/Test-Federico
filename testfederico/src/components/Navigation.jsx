@@ -1,11 +1,15 @@
-import '../App.css';
+import "../App.css";
 
 const Navigation = () => {
   return (
     <section>
-     
-    <p>Navigation</p>
-     
+      <div className="myNavBar">
+        <p>Logo</p>
+
+        <p>Items</p>
+
+        <p>Button</p>
+      </div>
     </section>
   );
 };

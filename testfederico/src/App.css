@@ -1,5 +1,5 @@
 body {
-  padding: 20px 40px;
+  padding: 20px 200px;
   background-color: #000000;
   font-family: "Magra", sans-serif;
   color: white;
@@ -52,4 +52,52 @@ p {
   font-weight: 400;
   font-size: 16px;
   color: white;
+}
+
+
+
+.myNavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.myCardCollection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.myIMG {
+  width: 316px;
+  height: 305px;
+  object-fit: cover;
+}
+
+.mycard {
+  width: 316px;
+  border: 1.5px solid #D6D6D6;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+
+.myCardText {
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .myCardCollection {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .myCardCollection {
+    flex-direction: row;
+  }
 }

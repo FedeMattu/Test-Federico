@@ -1,8 +1,8 @@
 import "../../App.css";
-import image2 from "../../assets/002.png";
-import image3 from "../../assets/003.png";
-import image4 from "../../assets/004.png";
-import image5 from "../../assets/005.png";
+import image2 from "../../assets/006.png";
+import image3 from "../../assets/007.png";
+import image4 from "../../assets/008.png";
+import image5 from "../../assets/009.png";
 
 const cardItems = [
   {
@@ -31,7 +31,7 @@ const cardItems = [
   },
 ];
 
-const Works = () => {
+const Works2 = () => {
   return (
     <section>
       <h3>Titolo sezione</h3>
@@ -53,4 +53,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default Works2;
