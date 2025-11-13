@@ -33,7 +33,7 @@ const cardItems = [
 
 const Works = () => {
   return (
-    <section>
+    <section className="sectionBeckground">
       <h3>Titolo sezione</h3>
       <div className="myCardCollection">
         {cardItems.map((item, index) => (
