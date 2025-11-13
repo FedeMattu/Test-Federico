@@ -1,5 +1,5 @@
 body {
-  padding: 20px 200px;
+  padding: 0px 200px;
   background-color: #000000;
   font-family: "Magra", sans-serif;
   color: white;
@@ -15,7 +15,7 @@ body {
   color: white; */
 }
 
-b{
+b {
   font-family: "Magra", sans-serif;
 }
 
@@ -54,18 +54,52 @@ p {
   color: white;
 }
 
-
+/* NavBar */
 
 .myNavBar {
   display: flex;
   flex-direction: row;
+  height: 72px;
   justify-content: space-between;
 }
 
+.navLink {
+  display: flex;
+  flex-direction: row;
+}
 
+.singleNavLink {
+  margin: 0px 20px;
+}
+
+/* NavBar */
+
+/* Sub Menu */
+
+.subMenu {
+  height: 453px;
+}
+
+.imageSize {
+  height: 453px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.centeredImageText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Sub Menu */
+
+/* Sezione delle card */
 
 .myCardCollection {
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -78,7 +112,7 @@ p {
 
 .mycard {
   width: 316px;
-  border: 1.5px solid #D6D6D6;
+  border: 1.5px solid #d6d6d6;
   border-top-left-radius: 200px;
   border-top-right-radius: 200px;
   border-bottom-left-radius: 24px;
@@ -90,14 +124,37 @@ p {
   padding: 20px;
 }
 
-@media (min-width: 600px) {
+/* Sezione delle card */
+
+/* About */
+
+
+
+/* About */
+
+@media (max-width: 540px) {
   .myCardCollection {
-    flex-direction: row;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 720px) {
   .myCardCollection {
-    flex-direction: row;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1024px) {
+  .myCardCollection {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
