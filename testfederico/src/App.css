@@ -59,17 +59,62 @@ p {
 .myNavBar {
   display: flex;
   flex-direction: row;
-  height: 72px;
   justify-content: space-between;
 }
 
-.navLink {
+.myButtons {
   display: flex;
   flex-direction: row;
 }
 
-.singleNavLink {
-  margin: 0px 20px;
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar .menu .buttons li {
+  display: inline-block;
+}
+
+.navbar .menu li {
+  display: block;
+  color: white;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  color: white;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+#menu-toggle {
+  position: absolute;
+  right: 0;
+  display: none;
+}
+
+.hideMenu {
+  background-color: #000000;
+  color: white;
+  border: 1.5px solid #d6d6d6;
 }
 
 /* NavBar */
@@ -128,8 +173,6 @@ p {
 
 /* About */
 
-
-
 /* About */
 
 @media (max-width: 540px) {
@@ -138,6 +181,26 @@ p {
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .navbar .menu {
+    display: none;
+    width: 100%;
+  }
+  .navbar .menu li {
+    display: block;
+    text-align: left;
+  }
+
+  .myButtons {
+    display: none;
+  }
+
+  #menu-toggle:checked + .hamburger + .menu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
   }
 }
 
@@ -148,6 +211,26 @@ p {
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .navbar .menu {
+    display: none;
+    width: 100%;
+  }
+  .navbar .menu li {
+    display: block;
+    text-align: left;
+  }
+
+  .myButtons {
+    display: none;
+  }
+
+  #menu-toggle:checked + .hamburger + .menu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -156,5 +239,25 @@ p {
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .navbar .menu {
+    display: none;
+    width: 100%;
+  }
+  .navbar .menu li {
+    display: block;
+    text-align: left;
+  }
+
+  .myButtons {
+    display: none;
+  }
+
+  #menu-toggle:checked + .hamburger + .menu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
   }
 }

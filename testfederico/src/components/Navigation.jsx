@@ -1,4 +1,7 @@
 import "../App.css";
+import { useState } from "react";
+
+
 
 const NavLink = [
   {
@@ -24,24 +27,39 @@ const NavLink = [
 ];
 
 const Navigation = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen((isOpen) => !isOpen);
+  }
   return (
     <section>
       <div className="myNavBar">
         <p>Logo</p>
+        <div className="navbar">
+          <input type="checkbox" id="menu-toggle"></input>
+          <div>
+            <ul class="menu">
+              {NavLink.map((item, index) => (
+                <li key={index}>
+                  <p>{item.name}</p>
+                </li>
+              ))}
+            </ul>
 
-        <div className="navLink">
-          {NavLink.map((item, index) => (
-            <div className="singleNavLink" key={index}>
-              <p>{item.name}</p>
-            </div>
-          ))}
+            <label for="menu-toggle" class="hamburger" onClick={toggle}>
+              ☰
+            </label>
+
+            {isOpen && <div className="hideMenu">Test</div>}
+          </div>
         </div>
 
-        <div>
+        <div className="myButtons">
           <p>Button</p>
           <p>Button</p>
         </div>
-        <label for="menu-toggle" class="hamburger">☰</label>
       </div>
     </section>
   );
