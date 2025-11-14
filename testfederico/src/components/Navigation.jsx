@@ -52,9 +52,11 @@ const Navigation = () => {
             <p>Button</p>
           </div>
         </div>
+        <div className="endHamburger">
         <label for="menu-toggle" class="hamburger" onClick={toggle}>
           ☰ {isOpen && <div className="hideMenu">Test</div>}
         </label>
+        </div>
     </section>
   );
 };
