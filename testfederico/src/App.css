@@ -62,17 +62,30 @@ p {
   body {
     width: auto;
   }
+
+  h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 720px) {
   body {
     width: auto;
   }
+
+  h1 {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 1024px) {
   body {
     width: auto;
+  }
+
+  h1 {
+    margin-bottom: 10px;
   }
 }
 
@@ -224,6 +237,7 @@ ul {
   box-shadow: #cca333 0px 10px 40px 0px;
   margin-left: auto;
   margin-right: auto;
+  margin: 0 40px 0 40px;
 }
 
 .searchButton {
@@ -278,60 +292,57 @@ input {
 }
 
 @media (max-width: 540px) {
+
   .title {
     width: 100%;
-  }
-  .title h1 {
-    font-weight: 600;
-    font-size: 30px;
-    position: relative;
-    transform: translate(0%, 0%);
+    padding-top: 100px;
+    position: none;
   }
 
   .categoryCollection {
     display: flex;
     flex-direction: column;
+    padding: 0 40px 40px 40px;
   }
 }
 
 @media (max-width: 720px) {
-  .title h1 {
-    font-weight: 600;
-    font-size: 50px;
-    position: relative;
+  .title {
+    width: 100%;
+    padding-top: 100px;
   }
 
   .categoryCollection {
     display: flex;
     flex-direction: column;
+    padding: 0 40px 40px 40px;
   }
 }
 
 @media (max-width: 1024px) {
-  .title h1 {
-    font-weight: 600;
-    font-size: 60px;
-    position: relative;
+  .title {
+    width: 100%;
+    padding-top: 150px;
   }
 
   .categoryCollection {
     display: flex;
     flex-direction: column;
+    padding: 0 40px 40px 40px;
   }
 }
 
 
 @media (max-width: 1200px) {
-  .title h1 {
-    font-weight: 600;
-    font-size: 70px;
+  .title {
+    width: 100%;
+    margin-top: 50px;
   }
 
   .categoryCollection {
     display: flex;
     flex-direction: column;
-    flex-shrink: 2;
-  }
+    padding: 0 40px 40px 40px;  }
 }
 
 
@@ -548,6 +559,7 @@ hr.separationLine {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
   }
   .myFooter {
     flex-direction: column;

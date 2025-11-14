@@ -11,8 +11,8 @@ const Index = () => {
     <Navigation />
         <main>
         <SubMenu />
-            {/* <Works />
-            <Works2 /> */}
+            <Works />
+            <Works2 />
             <About />
         </main>
         <hr className="separationLine" />
