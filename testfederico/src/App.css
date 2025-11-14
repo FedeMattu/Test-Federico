@@ -391,6 +391,17 @@ hr.separationLine {
 
 .footerLogo {
   width: 316px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.myLogoBox {
+  background-color: white;
+  text-align: center;
+  width: 172px;
+  padding: 6px;
+  color: #000000;
 }
 
 .myFooterGrid {
@@ -401,30 +412,6 @@ hr.separationLine {
 }
 
 /* @media (max-width: 540px) {
-  body {
-    width: 540px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  h1 {
-    font-family: "Magra", sans-serif;
-    font-weight: 600;
-    font-size: 39px;
-    color: white;
-  }
-
-  .categoryCollection {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .myCardCollection {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-  }
 
   .navbar .menu {
     display: none;
@@ -448,30 +435,6 @@ hr.separationLine {
 }
 
 @media (max-width: 720px) {
-  body {
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  h1 {
-    font-family: "Magra", sans-serif;
-    font-weight: 600;
-    font-size: 39px;
-    color: white;
-  }
-
-  .categoryCollection {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .myCardCollection {
-    display: flex;
-    width: max-content;
-    flex-direction: column;
-    justify-content: space-between;
-  }
 
   .navbar .menu {
     display: none;
@@ -495,30 +458,6 @@ hr.separationLine {
 }
 
 @media (max-width: 1024px) {
-  body {
-    width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  h1 {
-    font-family: "Magra", sans-serif;
-    font-weight: 600;
-    font-size: 39px;
-    color: white;
-  }
-
-  .categoryCollection {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .myCardCollection {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-  }
 
   .navbar .menu {
     display: none;
@@ -542,30 +481,6 @@ hr.separationLine {
 }
 
 @media (max-width: 1200px) {
-  body {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  h1 {
-    font-family: "Magra", sans-serif;
-    font-weight: 600;
-    font-size: 39px;
-    color: white;
-  }
-
-  .categoryCollection {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .myCardCollection {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-  }
 
   .navbar .menu {
     display: none;

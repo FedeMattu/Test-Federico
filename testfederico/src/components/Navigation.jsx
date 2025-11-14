@@ -33,7 +33,7 @@ const Navigation = () => {
   return (
     <section className="navFixed">
         <div className="myNavBar">
-          <p>Logo</p>
+          <p className="myLogoBox">LOGO</p>
           <div className="navbar">
             <input type="checkbox" id="menu-toggle"></input>
             <div>

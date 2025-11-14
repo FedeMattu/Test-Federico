@@ -4,7 +4,15 @@ const Footer = () => {
   return (
     <section>
       <div className="myFooter">
-        <div className="footerLogo">1</div>
+        <div className="footerLogo">
+          <p className="myLogoBox">LOGO</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quis in quis tempor id sit
+            pellentesque in. Neque nibh pellentesque leo laoreet tristique quis
+            ullamcorper. Nisl cursus purus tortor neque justo. Donec laoreet
+            enim dolor in habitasse in senectus eleifend.
+          </p>
+        </div>
         <div className="myFooterGrid">
           <p>
             <b>About</b>
