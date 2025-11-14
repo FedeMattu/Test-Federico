@@ -1,7 +1,7 @@
 body {
   width: 1440px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Magra", sans-serif;
   background-color: #000000;
   color: white;
@@ -62,8 +62,9 @@ p {
   position: fixed;
   background-color: #000000;
   width: 1440px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
 }
 
 .hideFlex {
@@ -139,19 +140,78 @@ ul {
 
 .subMenu {
   height: 453px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../src/assets/001.png);
+  background-size: cover;
+  height: 50vh;
 }
 
-.imageSize {
-  height: 453px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.centeredImageText {
+.title {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.form {
+  border: 1.5px solid #cca333;
+  width: 664px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  border-radius: 50px;
+  padding: 1px 10px;
+  background-color: #000000;
+  border: 1.5px solid #cca333;
+  box-shadow: #cca333 0px 10px 40px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchButton {
+  height: 40px;
+  width: 40px;
+  background-color: #cca333;
+  border-radius: 100%;
+  border: 1.5px solid #cca333;
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  padding: 24px 46px 24px 26px;
+}
+
+.searchIcon {
+  height: 17px;
+  width: 17px;
+}
+
+input {
+  font-family: "Magra", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.categoryCollection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.categotyButton {
+  border: 1.5px solid #efe2c0;
+  border-radius: 50px;
+  background-color: #000000;
+  padding: 0 10px;
 }
 
 /* Sub Menu */
@@ -199,10 +259,10 @@ ul {
 @media (max-width: 540px) {
   body {
     width: 540px;
-  margin-left:auto;
-  margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
+
   .myCardCollection {
     display: flex;
     width: 100%;
@@ -234,10 +294,10 @@ ul {
 @media (max-width: 720px) {
   body {
     width: 720px;
-  margin-left:auto;
-  margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
+
   .myCardCollection {
     display: flex;
     width: max-content;
@@ -269,8 +329,8 @@ ul {
 @media (max-width: 1024px) {
   body {
     width: 1024px;
-  margin-left:auto;
-  margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .myCardCollection {
@@ -304,8 +364,8 @@ ul {
 @media (max-width: 1200px) {
   body {
     width: 1200px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .myCardCollection {
