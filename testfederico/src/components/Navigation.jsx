@@ -32,31 +32,31 @@ const Navigation = () => {
   };
   return (
     <section className="navFixed">
-        <div className="myNavBar">
-          <p className="myLogoBox">LOGO</p>
-          <div className="navbar">
-            <input type="checkbox" id="menu-toggle"></input>
-            <div>
-              <ul class="menu">
-                {NavLink.map((item, index) => (
-                  <li key={index}>
-                    <p>{item.name}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <div className="myButtons">
-            <p>Button</p>
-            <p>Button</p>
-          </div>
-        </div>
+      <div className="myNavBar">
+        <p className="myLogoBox">LOGO</p>
         <div className="endHamburger">
-        <label for="menu-toggle" class="hamburger" onClick={toggle}>
-          ☰ {isOpen && <div className="hideMenu">Test</div>}
-        </label>
+          <label for="menu-toggle" class="hamburger" onClick={toggle}>
+            ☰ {isOpen && <div className="hideMenu">Test</div>}
+          </label>
         </div>
+        <div className="navbar">
+          <input type="checkbox" id="menu-toggle"></input>
+          <div>
+            <ul class="menu">
+              {NavLink.map((item, index) => (
+                <li key={index}>
+                  <p>{item.name}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <div className="myButtons">
+          <p className="orangeButton">Button</p>
+          <p className="orangeButtonBorder">Button</p>
+        </div>
+      </div>
     </section>
   );
 };
