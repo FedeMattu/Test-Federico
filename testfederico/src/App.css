@@ -89,7 +89,6 @@ p {
   }
 }
 
-
 @media (max-width: 1200px) {
   body {
     width: auto;
@@ -269,11 +268,20 @@ input {
   color: white;
 }
 
+
+
 .categoryCollection {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 30px;
+  gap: 8px;
+  margin-top: 5%;
+}
+
+.lineCategory {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   gap: 8px;
 }
 
@@ -292,37 +300,64 @@ input {
 }
 
 @media (max-width: 540px) {
-
+  .subMenu {
+    height: 300px;
+  }
   .title {
     width: 100%;
-    padding-top: 100px;
+    margin-top: 50%;
     position: none;
   }
 
   .categoryCollection {
     display: flex;
     flex-direction: column;
-    padding: 0 40px 40px 40px;
+    padding: 0 40px 40px 0px;
   }
 }
 
 @media (max-width: 720px) {
+  .subMenu {
+    height: 200px;
+  }
   .title {
     width: 100%;
-    padding-top: 100px;
+    margin-top: 50%;
+    height: auto;
   }
 
   .categoryCollection {
     display: flex;
     flex-direction: column;
-    padding: 0 40px 40px 40px;
+    padding: 0 40px 40px 0px;
   }
 }
 
 @media (max-width: 1024px) {
+  .subMenu {
+    height: 300px;
+  }
   .title {
     width: 100%;
-    padding-top: 150px;
+    margin-top: 60px;
+    height: auto;
+  }
+
+  .categoryCollection {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 40px 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .subMenu {
+    height: 500px;
+  }
+  .title {
+    width: 100%;
+    margin-top: 50px;
+    height: auto;
   }
 
   .categoryCollection {
@@ -331,20 +366,6 @@ input {
     padding: 0 40px 40px 40px;
   }
 }
-
-
-@media (max-width: 1200px) {
-  .title {
-    width: 100%;
-    margin-top: 50px;
-  }
-
-  .categoryCollection {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px 40px 40px;  }
-}
-
 
 /* Sub Menu */
 
@@ -490,7 +511,7 @@ input {
   .myForm {
     width: auto;
   }
-  .motivationCollection{
+  .motivationCollection {
     flex-direction: column;
   }
 }
@@ -499,7 +520,7 @@ input {
   .myForm {
     width: auto;
   }
-  .motivationCollection{
+  .motivationCollection {
     flex-direction: column;
   }
 }

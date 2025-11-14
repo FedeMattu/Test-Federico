@@ -41,13 +41,34 @@ const SubMenu = () => {
         </form>
 
         <div className="categoryCollection">
-          {categories.map((item, index) => (
-            <div key={index}>
+            <div className="lineCategory">
               <div className="categotyButton">
-                <p>{item.title}</p>
+                <p>Categoria di corso</p>
+              </div>
+              <div className="categotyButton">
+                <p>Categoria di corso</p>
               </div>
             </div>
-          ))}
+
+            <div className="lineCategory">
+              <div className="categotyButton">
+                <p>Categoria di corso</p>
+              </div>
+              <div className="categotyButton">
+                <p>Categoria di corso</p>
+              </div>
+            </div>
+
+            <div className="lineCategory">
+              <div className="categotyButton">
+                <p>Categoria di corso</p>
+              </div>
+              <div className="categotyButton">
+                <p>Categoria di corso</p>
+              </div>
+            </div>
+
+          
         </div>
       </div>
     </section>
