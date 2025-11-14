@@ -1,4 +1,4 @@
-import "../App.css";
+import "./styles/Navigation.css";
 import { useState } from "react";
 
 const NavLink = [
@@ -31,7 +31,10 @@ const Navigation = () => {
     setIsOpen((isOpen) => !isOpen);
   };
   return (
-    <section className="navFixed">
+    <section className="liquidGlass-wrapper dock">
+      <div class="liquidGlass-effect"></div>
+      <div class="liquidGlass-tint"></div>
+      <div class="liquidGlass-shine"></div>
       <div className="myNavBar">
         <p className="myLogoBox">LOGO</p>
         <div className="endHamburger">
