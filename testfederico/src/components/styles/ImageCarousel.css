@@ -270,3 +270,35 @@ li {
   justify-content: space-between;
   margin: 20px 0 10px 0;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 540px) {
+  .sectionBeckground {
+  padding: 20px 20px 0 20px;
+}
+  .arrowButtonsCollection {
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .arrowButtonsCollection {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}

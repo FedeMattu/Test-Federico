@@ -95,7 +95,6 @@ p {
   }
 }
 
-
 .subMenu {
   height: 553px;
 
@@ -161,8 +160,6 @@ input {
   color: white;
 }
 
-
-
 .categoryCollection {
   display: flex;
   flex-direction: row;
@@ -205,7 +202,7 @@ input {
   .categoryCollection {
     display: flex;
     flex-direction: column;
-    padding: 0 40px 40px 0px;
+    padding: 0 20px 20px 20px;
   }
 }
 
@@ -222,7 +219,7 @@ input {
   .categoryCollection {
     display: flex;
     flex-direction: column;
-    padding: 0 40px 40px 0px;
+    padding: 0 20px 20px 20px;
   }
 }
 
@@ -239,7 +236,7 @@ input {
   .categoryCollection {
     display: flex;
     flex-direction: column;
-    padding: 0 40px 40px 0px;
+    padding: 0 20px 20px 20px;
   }
 }
 
@@ -443,6 +440,7 @@ hr.separationLine {
   flex-direction: row;
   justify-content: space-between;
   padding: 40px;
+  gap: 20px;
 }
 
 .footerLogo {
@@ -460,9 +458,62 @@ hr.separationLine {
   color: #000000;
 }
 
+.footerLayout {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerTwo {
+  display: flex;
+  flex-direction: row;
+}
+
 .myFooterGrid {
   width: 200px;
-  display: flex;
-  flex-direction: column;
   gap: 8px;
+}
+
+@media (max-width: 540px) {
+  .myFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footerTwo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 720px) {
+  .myFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footerTwo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerLayout {
+    gap: 2px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .myFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footerLayout {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
 }
