@@ -114,7 +114,10 @@ ul {
   }
 
   .glass-container {
-    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .myFooter {
@@ -152,10 +155,6 @@ ul {
   .navbar .menu {
     display: none;
     width: 100%;
-  }
-
-  .glass-container {
-    width: auto;
   }
   .navbar .menu li {
     display: block;
@@ -356,4 +355,69 @@ ul {
   padding: 1rem 2rem 1rem 0.75rem;
   flex: 1 1 auto;
   justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 540px) {
+  .glass-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .glass-content {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .glass-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .glass-content {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .glass-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .glass-content {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .glass-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .glass-content {
+    width: 100%;
+    justify-content: space-between;
+  }
+
 }
