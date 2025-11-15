@@ -53,7 +53,7 @@ const ImageCarousel2 = () => {
             <li id="carousel__slide1" tabindex="0">
               <div className="mycard" key={index}>
                 <div>
-                  <img className="myIMG" src={item.image} alt={item.name} />
+                  <img className="myIMG" src={item.image} alt={item.name}/>
                   <div></div>
                 </div>
                 <div className="myCardText">
@@ -61,11 +61,11 @@ const ImageCarousel2 = () => {
                   <p>{item.description}</p>
                   <div className="finalInfo">
                     <div className="iconText">
-                      <img className="searchIcon" src={clock}></img>
+                      <img className="searchIcon" src={clock} alt="clock"></img>
                       <p>{item.clock}</p>
                     </div>
                     <div className="iconText">
-                      <img className="searchIcon" src={check}></img>
+                      <img className="searchIcon" src={check} alt="check"></img>
                       <p>{item.certificate}</p>
                     </div>
                   </div>
@@ -79,10 +79,10 @@ const ImageCarousel2 = () => {
         </aside>
         <div className="arrowButtonsCollection">
           <button className="arrowButton">
-            <img className="arrocIcon" src={arrowLeft} />
+            <img className="arrocIcon" src={arrowLeft} alt="arrow left"/>
           </button>
           <button className="arrowButton">
-            <img className="arrocIcon" src={arrowRight} />
+            <img className="arrocIcon" src={arrowRight} alt="arrow right"/>
           </button>
         </div>
       </div>

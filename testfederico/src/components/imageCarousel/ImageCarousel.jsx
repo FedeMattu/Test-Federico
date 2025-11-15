@@ -61,11 +61,11 @@ const ImageCarousel = () => {
                   <p>{item.description}</p>
                   <div className="finalInfo">
                     <div className="iconText">
-                      <img className="searchIcon" src={clock}></img>
+                      <img className="searchIcon" src={clock} alt="clock"></img>
                       <p>{item.clock}</p>
                     </div>
                     <div className="iconText">
-                      <img className="searchIcon" src={check}></img>
+                      <img className="searchIcon" src={check} alt="check"></img>
                       <p>{item.certificate}</p>
                     </div>
                   </div>
@@ -81,10 +81,10 @@ const ImageCarousel = () => {
         </aside>
         <div className="arrowButtonsCollection">
           <button className="arrowButton">
-            <img className="arrocIcon" src={arrowLeft} />
+            <img className="arrocIcon" src={arrowLeft} alt="arrow left"/>
           </button>
           <button className="arrowButton">
-            <img className="arrocIcon" src={arrowRight} />
+            <img className="arrocIcon" src={arrowRight} alt="arrow right"/>
           </button>
         </div>
       </div>

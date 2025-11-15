@@ -1,26 +1,7 @@
 import "../../App.css";
 import search from "../../assets/search.svg";
 
-const categories = [
-  {
-    title: "Categoria di corso",
-  },
-  {
-    title: "Categoria di corso",
-  },
-  {
-    title: "Categoria di corso",
-  },
-  {
-    title: "Categoria di corso",
-  },
-  {
-    title: "Categoria di corso",
-  },
-  {
-    title: "Categoria di corso",
-  },
-];
+
 
 const SubMenu = () => {
   return (
@@ -36,7 +17,7 @@ const SubMenu = () => {
             className="searchInput"
           ></input>
           <button type="submit" className="searchButton">
-            <img className="searchIcon" src={search}></img>
+            <img className="searchIcon" src={search} alt="search icon"></img>
           </button>
         </form>
 
