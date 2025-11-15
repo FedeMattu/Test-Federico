@@ -1,8 +1,8 @@
 import "../styles/ImageCarousel.css";
-import image2 from "../../assets/002.png";
-import image3 from "../../assets/003.png";
-import image4 from "../../assets/004.png";
-import image5 from "../../assets/005.png";
+import image2 from "../../assets/006.png";
+import image3 from "../../assets/007.png";
+import image4 from "../../assets/008.png";
+import image5 from "../../assets/009.png";
 import arrowLeft from "../../assets/left.svg";
 import arrowRight from "../../assets/right.svg";
 import clock from "../../assets/timer.svg";
@@ -43,7 +43,7 @@ const cardItems = [
   },
 ];
 
-const ImageCarousel = () => {
+const ImageCarousel2 = () => {
   return (
     <section className="sectionBeckground">
       <h3>Titolo sezione</h3>
@@ -75,9 +75,7 @@ const ImageCarousel = () => {
           ))}
         </ol>
         <aside class="carousel__navigation">
-          <ol class="carousel__navigation-list">
-           
-          </ol>
+          <ol class="carousel__navigation-list"></ol>
         </aside>
         <div className="arrowButtonsCollection">
           <button className="arrowButton">
@@ -92,4 +90,4 @@ const ImageCarousel = () => {
   );
 };
 
-export default ImageCarousel;
+export default ImageCarousel2;
