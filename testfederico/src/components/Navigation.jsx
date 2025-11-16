@@ -68,7 +68,7 @@ const Navigation = () => {
             <div className="glass-content glass-content--inline">
               <p className="myLogoBox">LOGO</p>
               <div className="endHamburger">
-                <label for="menu-toggle" class="hamburger" onClick={toggle}>
+                <label for="menu-toggle" className="hamburger" onClick={toggle}>
                   ☰ {isOpen && <div className="hideMenu">Test</div>}
                 </label>
               </div>

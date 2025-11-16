@@ -114,6 +114,14 @@ ul {
     width: 100%;
   }
 
+  .hamburger {
+    padding: 0;
+  }
+
+  .navbar {
+    display: none;
+  }
+
   .glass-container {
     display: flex;
     flex-direction: row;
@@ -157,6 +165,17 @@ ul {
     display: none;
     width: 100%;
   }
+
+  .hamburger {
+    padding: 0;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
   .navbar .menu li {
     display: block;
     text-align: left;
@@ -175,9 +194,20 @@ ul {
 }
 
 @media (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
   .navbar .menu {
     display: none;
     width: 100%;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    padding: 0;
   }
 
   .glass-container {
@@ -204,6 +234,15 @@ ul {
   .navbar .menu {
     display: none;
     width: 100%;
+  }
+
+  .hamburger {
+    padding: 0;
+  }
+  
+
+  .navbar {
+    display: none;
   }
 
   .glass-container {
@@ -354,23 +393,10 @@ ul {
 }
 
 .glass-content--inline {
-  padding: 1rem 2rem 1rem 0.75rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   flex: 1 1 auto;
   justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 540px) {
   .glass-container {
@@ -382,7 +408,6 @@ ul {
     width: 100%;
     justify-content: space-between;
   }
-
 }
 
 @media (max-width: 720px) {
@@ -395,7 +420,6 @@ ul {
     width: 100%;
     justify-content: space-between;
   }
-
 }
 
 @media (max-width: 1024px) {
@@ -408,7 +432,6 @@ ul {
     width: 100%;
     justify-content: space-between;
   }
-
 }
 
 @media (max-width: 1200px) {
@@ -421,5 +444,4 @@ ul {
     width: 100%;
     justify-content: space-between;
   }
-
 }

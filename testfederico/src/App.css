@@ -203,6 +203,10 @@ input {
   .subMenu {
     height: 300px;
   }
+
+  .form {
+    margin: 0 15px 0 15px;
+  }
   
   .title {
     width: 100%;
