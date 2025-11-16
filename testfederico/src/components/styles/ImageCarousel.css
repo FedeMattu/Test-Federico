@@ -242,7 +242,7 @@ li {
 }
 
 .myCardText {
-  padding: 20px;
+  padding: 0 15px 15px 15px;
 }
 .arrowButtonsCollection {
   display: flex;
