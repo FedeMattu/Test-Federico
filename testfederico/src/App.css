@@ -193,6 +193,7 @@ input {
   .subMenu {
     height: 300px;
   }
+  
   .title {
     width: 100%;
     margin-top: 50%;
@@ -202,7 +203,7 @@ input {
   .categoryCollection {
     display: flex;
     flex-direction: column;
-    padding: 0 20px 20px 20px;
+    padding: 0;
   }
 }
 
@@ -212,7 +213,7 @@ input {
   }
   .title {
     width: 100%;
-    margin-top: 50%;
+    margin-top: 30%;
     height: auto;
   }
 
@@ -229,7 +230,7 @@ input {
   }
   .title {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 30px;
     height: auto;
   }
 
@@ -246,14 +247,15 @@ input {
   }
   .title {
     width: 100%;
-    margin-top: 50px;
-    height: auto;
+    height: 60%;
+    margin-top: 100px;
   }
 
   .categoryCollection {
     display: flex;
     flex-direction: column;
     padding: 0 40px 40px 40px;
+    margin-top: 10px;
   }
 }
 
@@ -494,6 +496,7 @@ hr.separationLine {
   .footerTwo {
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
 
   .footerLayout {
