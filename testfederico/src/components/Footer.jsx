@@ -3,6 +3,7 @@ import "../App.css";
 const Footer = () => {
   return (
     <section>
+      <hr className="separationLine" />
       <div className="myFooter">
         <div className="footerLogo">
           <p className="myLogoBox">LOGO</p>

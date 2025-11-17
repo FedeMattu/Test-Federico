@@ -43,34 +43,37 @@ const About = () => {
       <h4 className="subtitle">
         Contattaci e faremo il possibile per soddisfare le tue esigenze
       </h4>
+
       <div className="myForm">
-        <div className="aboutForm">
-          <input
-            type="text"
-            placeholder="Nome"
-            name="nome"
-            className="aboutFormButton"
-          ></input>
-          <input
-            type="text"
-            placeholder="Cognome"
-            name="cognome"
-            className="aboutFormButton"
-          ></input>
-        </div>
-        <div className="aboutForm">
-          <input
-            type="email"
-            placeholder="Email"
-            name="email"
-            className="aboutFormButton"
-          ></input>
-          <input
-            type="text"
-            placeholder="Telefono (opzionale)*"
-            name="telefono"
-            className="aboutFormButton"
-          ></input>
+        <div className="fourInput">
+          <div className="aboutForm">
+            <input
+              type="text"
+              placeholder="Nome*"
+              name="nome"
+              className="aboutFormButton"
+            ></input>
+            <input
+              type="text"
+              placeholder="Cognome*"
+              name="cognome"
+              className="aboutFormButton"
+            ></input>
+          </div>
+          <div className="aboutForm">
+            <input
+              type="email"
+              placeholder="Email*"
+              name="email"
+              className="aboutFormButton"
+            ></input>
+            <input
+              type="text"
+              placeholder="Telefono (opzionale)"
+              name="telefono"
+              className="aboutFormButton"
+            ></input>
+          </div>
         </div>
         <textarea
           className="textareaInput"

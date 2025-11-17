@@ -15,7 +15,6 @@ const Index = () => {
         <ImageCarousel2 />
         <About />
       </main>
-      <hr className="separationLine" />
       <Footer />
     </div>
   );

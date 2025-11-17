@@ -68,12 +68,12 @@ p {
     margin-top: 20px;
   }
 
-    h2 {
+  h2 {
     font-size: 28px;
     margin-top: 25px;
   }
 
-    h4 {
+  h4 {
     font-size: 20px;
     margin-top: 20px;
   }
@@ -108,7 +108,7 @@ p {
 .subMenu {
   height: 553px;
 
-  background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%),
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%),
     url(../src/assets/001.png);
   background-size: cover;
   width: auto;
@@ -207,7 +207,7 @@ input {
   .form {
     margin: 0 15px 0 15px;
   }
-  
+
   .title {
     width: 100%;
     margin-top: 50%;
@@ -353,6 +353,13 @@ input {
   padding: 40px;
 }
 
+textarea {
+  font-family: "Magra", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  height: 100px;
+}
+
 .motivationCard {
   box-shadow: -1px 1px 54px 66px #181818 inset;
   -webkit-box-shadow: -1px 1px 54px 66px rgba(24, 24, 24, 0.62) inset;
@@ -382,7 +389,7 @@ input {
   border: 0;
   border-radius: 50px;
   background-color: #000000;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0px 3px 0px 0px #cca333;
   margin: 10px 0 10px 0;
 }
@@ -399,7 +406,7 @@ input {
   border-radius: 50px;
   background-color: #000000;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0px 3px 0px 0px #cca333;
   margin: 10px 0 10px 0;
 }
@@ -412,6 +419,11 @@ input {
   padding: 10px;
 }
 
+.fourInput {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 540px) {
   .myForm {
     width: auto;
@@ -420,13 +432,28 @@ input {
     flex-direction: column;
     padding: 20px;
   }
+  .fourInput {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutForm {
+    flex-direction: column;
+  }
+  .aboutFormButton {
+    width: auto;
+  }
 }
 
 @media (max-width: 720px) {
   .myForm {
     width: auto;
+    padding: 20px;
   }
   .motivationCollection {
+    flex-direction: column;
+  }
+  .fourInput {
+    display: flex;
     flex-direction: column;
   }
 }
@@ -441,6 +468,7 @@ input {
   .myForm {
     width: auto;
   }
+
 }
 
 /* About */
@@ -448,7 +476,7 @@ input {
 /* footer */
 
 hr.separationLine {
-  margin-top: 60px;
+  margin-top: 2rem;
   border: 1px solid #ffffff;
 }
 
@@ -487,6 +515,8 @@ hr.separationLine {
 
 .myFooterGrid {
   width: 200px;
+  display: flex;
+  flex-direction: column;
   gap: 8px;
 }
 
