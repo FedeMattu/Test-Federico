@@ -1,26 +1,27 @@
 import "./styles/Navigation.css";
 import { useState } from "react";
+import arrow from "../assets/keyboard_arrow_down.svg";
 
 const NavLink = [
   {
     name: "Item",
-    link: "",
+    button: ".",
   },
   {
     name: "Item",
-    link: "",
+    button: ".",
   },
   {
     name: "Item",
-    link: "",
+    button: ".",
   },
   {
     name: "Item",
-    link: "",
+    button: arrow,
   },
   {
     name: "Item",
-    link: "",
+    button: ".",
   },
 ];
 
@@ -75,12 +76,29 @@ const Navigation = () => {
               <div className="navbar">
                 <input type="checkbox" id="menu-toggle"></input>
                 <div>
-                  <ul class="menu">
-                    {NavLink.map((item, index) => (
+                  <ul class="itmesCollection">
+                    {/* {NavLink.map((item, index) => (
                       <li key={index}>
                         <p>{item.name}</p>
+                        <img src={item.button} alt="arrow" />
                       </li>
-                    ))}
+                    ))} */}
+                    <li className="menuDropDown">
+                      <p>Item</p>
+                    </li>
+                    <li className="menuDropDown">
+                      <p>Item</p>
+                    </li>
+                    <li className="menuDropDown">
+                      <p>Item</p>
+                    </li>
+                    <li className="menuDropDown">
+                      <p>Item</p>
+                      <img src={arrow} alt="arrow" />
+                    </li>
+                    <li className="menuDropDown">
+                      <p>Item</p>
+                    </li>
                   </ul>
                 </div>
               </div>

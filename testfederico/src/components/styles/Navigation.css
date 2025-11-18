@@ -1,18 +1,44 @@
 /* NavBar */
 
+
+
+
+
+.itmesCollection {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: baseline;
+}
+
+.menuDropDown {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navFixed {
   position: fixed;
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
   z-index: 10;
-  /* z-index: 10;
-  background: rgba(0, 0, 0, 0.41);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(7.6px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 15px 0 15px 0; */
 }
 
 .myNavBar {
@@ -32,31 +58,6 @@
   display: flex;
   flex-direction: row;
   gap: 8px;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-}
-
-.navbar {
-  overflow: hidden;
-}
-
-.navbar .menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.navbar .menu .buttons li {
-  display: inline-block;
-}
-
-.navbar .menu li {
-  display: block;
-  color: white;
-  padding: 0px 20px;
-  text-decoration: none;
 }
 
 .hamburger {
@@ -355,6 +356,30 @@ ul {
 .player__controls__ff {
   display: flex;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ========== GLASS LAYERS ========== */
 .glass-filter {
